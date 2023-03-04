@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4771B1EF29B2C864009AEFE4 /* SwiftUIMVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771B1EE29B2C864009AEFE4 /* SwiftUIMVVMApp.swift */; };
-		4771B1F129B2C864009AEFE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771B1F029B2C864009AEFE4 /* ContentView.swift */; };
+		4771B1F129B2C864009AEFE4 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771B1F029B2C864009AEFE4 /* LandingView.swift */; };
 		4771B1F329B2C865009AEFE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4771B1F229B2C865009AEFE4 /* Assets.xcassets */; };
 		4771B1F629B2C865009AEFE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4771B1F529B2C865009AEFE4 /* Preview Assets.xcassets */; };
 		4771B20029B2C865009AEFE4 /* SwiftUIMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771B1FF29B2C865009AEFE4 /* SwiftUIMVVMTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		4771B1EB29B2C864009AEFE4 /* SwiftUIMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4771B1EE29B2C864009AEFE4 /* SwiftUIMVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMVVMApp.swift; sourceTree = "<group>"; };
-		4771B1F029B2C864009AEFE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4771B1F029B2C864009AEFE4 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		4771B1F229B2C865009AEFE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4771B1F529B2C865009AEFE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4771B1FB29B2C865009AEFE4 /* SwiftUIMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				4771B1EE29B2C864009AEFE4 /* SwiftUIMVVMApp.swift */,
-				4771B1F029B2C864009AEFE4 /* ContentView.swift */,
+				4771B1F029B2C864009AEFE4 /* LandingView.swift */,
 				4771B1F229B2C865009AEFE4 /* Assets.xcassets */,
 				4771B1F429B2C865009AEFE4 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4771B1F129B2C864009AEFE4 /* ContentView.swift in Sources */,
+				4771B1F129B2C864009AEFE4 /* LandingView.swift in Sources */,
 				4771B1EF29B2C864009AEFE4 /* SwiftUIMVVMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

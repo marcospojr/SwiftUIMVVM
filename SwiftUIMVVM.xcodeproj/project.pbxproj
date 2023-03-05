@@ -14,6 +14,8 @@
 		4771B20029B2C865009AEFE4 /* SwiftUIMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771B1FF29B2C865009AEFE4 /* SwiftUIMVVMTests.swift */; };
 		4771B20A29B2C865009AEFE4 /* SwiftUIMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771B20929B2C865009AEFE4 /* SwiftUIMVVMUITests.swift */; };
 		4771B20C29B2C865009AEFE4 /* SwiftUIMVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771B20B29B2C865009AEFE4 /* SwiftUIMVVMUITestsLaunchTests.swift */; };
+		4771B21929B374B0009AEFE4 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771B21829B374B0009AEFE4 /* PrimaryButtonStyle.swift */; };
+		4771B21B29B3755E009AEFE4 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771B21A29B3755E009AEFE4 /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		4771B20529B2C865009AEFE4 /* SwiftUIMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4771B20929B2C865009AEFE4 /* SwiftUIMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMVVMUITests.swift; sourceTree = "<group>"; };
 		4771B20B29B2C865009AEFE4 /* SwiftUIMVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4771B21829B374B0009AEFE4 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		4771B21A29B3755E009AEFE4 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				4771B1F029B2C864009AEFE4 /* LandingView.swift */,
 				4771B1F229B2C865009AEFE4 /* Assets.xcassets */,
 				4771B1F429B2C865009AEFE4 /* Preview Content */,
+				4771B21829B374B0009AEFE4 /* PrimaryButtonStyle.swift */,
+				4771B21A29B3755E009AEFE4 /* Color+Extensions.swift */,
 			);
 			path = SwiftUIMVVM;
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4771B21929B374B0009AEFE4 /* PrimaryButtonStyle.swift in Sources */,
 				4771B1F129B2C864009AEFE4 /* LandingView.swift in Sources */,
 				4771B1EF29B2C864009AEFE4 /* SwiftUIMVVMApp.swift in Sources */,
+				4771B21B29B3755E009AEFE4 /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,9 +9,44 @@ import SwiftUI
 
 struct LandingView: View {
     var body: some View {
-        VStack {
-            Text("LandingPage")
-        }.background(Image("backgroundImage"))
+        GeometryReader { proxy in
+            VStack {
+                Spacer().frame(height: proxy.size.height * 0.20)
+                Text("Workout App")
+                    .font(
+                        .system(
+                            size: 56,
+                            weight: .medium)
+                    )
+                Spacer()
+                Button(action: {}) {
+                    HStack(spacing: 16) {
+                        Spacer()
+                        Image(systemName: "plus.circle")
+                            .font(.system(size: 24, weight: .semibold))
+                            .foregroundColor(.white)
+                        Text("Initiate")
+                            .font(.system(size: 24, weight: .semibold))
+                            .foregroundColor(.white)
+                        Spacer()
+                    }
+                }
+                .padding(.horizontal, 16)
+                .buttonStyle(PrimaryButtonStyle())
+            }
+            .frame(maxWidth: .infinity,
+                   maxHeight: .infinity
+            )
+            .background(
+                Image("backgroundImage")
+                .resizable()
+                .aspectRatio(
+                    contentMode: .fill
+                ).overlay(Color.black.opacity(0.4))
+                .frame(width: proxy.size.width)
+                .edgesIgnoringSafeArea(.all)
+            )
+        }
     }
 }
 
